@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Liechtenstein</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        margin: .75em;
+    }
+    .row {
+        display: flex;
+    }
+    .row .col-md-6 {
+        display: flex;
+        flex-direction: column;
+    }
+    .row .col-md-6 > * {
+        flex-grow: 1;
+    }
+    .list-group {
+        text-align: center;
+    }
+    .container-md {
+        max-width: 960px;
+    }
+    .mb-3 {
+        border-bottom: 1px solid #ccc;
+        transition: all 0.3s ease;
+    }
+    .list-group {
+        border-top: 1px solid #ccc;
+    }
+</style>
+<body>
+    <div class="container-md">
+        <h1>Liechtenstein</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../img/li.png" class="img-fluid" alt="Liechtenstein">
+            </div>
+            <div class="col-md-6 list">
+                <div class="list-group">
+                    <div class="mb-3">
+                        <h5 class="mb-1 fw-bold">Väkiluku</h5>
+                        <p class="mb-1 lead">38 749</p>
+                    </div>
+                    <div class="mb-3 ">
+                        <h5 class="mb-1 fw-bold">Pinta-ala</h5>
+                        <p class="mb-1 lead">160,47 km²</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5 class="mb-1 fw-bold" >Pääkaupunki</h5>
+                        <p class="mb-1 lead">Vaduz</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5 class="mb-1 fw-bold">Virallinen kieli</h5>
+                        <p class="mb-1 lead">Saksa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
